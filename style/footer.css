@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    color: yellow;
+    background-color: black;
+    margin-top: auto;
+    height: 30px;
+    font-size: 20px;
+}
