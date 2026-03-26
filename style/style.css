@@ -1,0 +1,124 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 8%;
+    border-bottom: 1px solid dimgray;
+}
+
+.top-bar {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-bottom: 80px;
+    color: darkgray;
+}
+
+.hero-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 40px;
+}
+
+.hero-texto {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-texto h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.hero-texto p {
+    line-height: 1.6;
+    color: lightgray;
+    font-size: 18px;
+}
+
+.hero-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-imagem img {
+    max-width: 380px;
+    width: 100%;
+}
+
+.sobre-nos {
+    padding: 100px 8%;
+}
+
+.sobre-nos h2 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 6px;
+    margin-bottom: 80px;
+    font-weight: normal;
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h3 {
+    font-size: 32px;
+    color: goldenrod; 
+    margin-bottom: 24px;
+    font-weight: normal;
+}
+
+.texto p {
+    margin-bottom: 18px;
+    line-height: 1.7;
+    color: silver;
+    font-size: 16px;
+}
+
+.imagem-destaque {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem-destaque img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px black;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: dimgray;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-top: 1px solid dimgray;
+}
