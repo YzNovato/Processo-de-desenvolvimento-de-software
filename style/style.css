@@ -1,124 +1,84 @@
 * {
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
-    font-family : 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {
     background-color: black;
     color: white;
-}
-
-.hero-section {
-    min-height: 80vh;
+    height: 100vh;
+    overflow: hidden; 
     display: flex;
     flex-direction: column;
-    padding: 60px 8%;
+}
+
+
+header {
+    text-align: center;
+    padding: 15px 8%; 
     border-bottom: 1px solid dimgray;
 }
 
-.top-bar {
-    font-weight: bold;
-    font-size: 16px;
-    letter-spacing: 4px;
-    margin-bottom: 80px;
-    color: darkgray;
+header .logo {
+    width: 100px; 
+    height: auto;
 }
 
-.hero-conteudo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    gap: 40px;
-}
-
-.hero-texto {
-    flex: 1;
-    max-width: 600px;
-}
-
-.hero-texto h1 {
-    font-size: 48px;
-    margin-bottom: 24px;
-    line-height: 1.2;
-}
-
-.hero-texto p {
-    line-height: 1.6;
-    color: lightgray;
-    font-size: 18px;
-}
-
-.hero-imagem {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.hero-imagem img {
-    max-width: 380px;
-    width: 100%;
-}
-
-.sobre-nos {
-    padding: 100px 8%;
-}
-
-.sobre-nos h2 {
-    text-align: center;
-    font-size: 28px;
-    letter-spacing: 6px;
-    margin-bottom: 80px;
-    font-weight: normal;
-    color: white;
-}
 
 .conteudo {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 20px 8%; 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 1; 
+    gap: 25px;
 }
 
-.texto {
-    flex: 1;
+
+.historia {
+    text-align: center;
 }
 
-.texto h3 {
-    font-size: 32px;
+.historia h3 {
+    font-size: 28px;
     color: goldenrod; 
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     font-weight: normal;
 }
 
-.texto p {
-    margin-bottom: 18px;
-    line-height: 1.7;
+.historia p {
+    margin-bottom: 12px;
+    line-height: 1.6;
     color: silver;
     font-size: 16px;
+    text-align: justify;
 }
 
-.imagem-destaque {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+
+.slogan {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 
-.imagem-destaque img {
-    width: 100%;
-    max-width: 550px;
-    border-radius: 6px;
-    box-shadow: 0 10px 30px black;
+.slogan p {
+    font-size: 18px;
+    font-style: italic;
+    color: lightgray;
+    line-height: 1.5;
 }
+
 
 footer {
     text-align: center;
-    padding: 30px;
+    padding: 15px; 
     background-color: black;
     color: dimgray;
     font-size: 14px;
     letter-spacing: 2px;
-    border-top: 1px solid dimgray;
 }
