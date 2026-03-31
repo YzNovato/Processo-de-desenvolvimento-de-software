@@ -1,13 +1,9 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 footer {
-    color: yellow;
-    background-color: black;
     margin-top: auto;
-    height: 30px;
-    font-size: 20px;
+    text-align: center;
+    padding: 15px; 
+    background-color: black;
+    color: dimgray;
+    font-size: 14px;
+    letter-spacing: 2px;
 }
