@@ -32,16 +32,22 @@ header{
     padding-top: 10px;
 }
 
-.botao{
-    background-color: white;
-    padding: 20px 30px 20px 30px;
-    border-radius: 40px;
-    border: 3px solid goldenrod;
-    transition: o.3s;
+/* .pedidos img{
+    width: 300px;   
+    height: auto;   
+    border: 3px solid dimgray;
+} */
 
-    cursor: pointer;
+.slogan {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
 }
 
-.botao:hover{
-    background-color: palegoldenrod;
+.slogan p {
+    font-size: 18px;
+    font-style: italic;
+    color: lightgray;
+    line-height: 1.5;
 }
