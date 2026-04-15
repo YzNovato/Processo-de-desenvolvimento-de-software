@@ -12,3 +12,7 @@
 .botao:hover{
     background-color: palegoldenrod;
 }
+
+.botao.ativo{
+    background-color: goldenrod;
+}
