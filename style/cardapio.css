@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo{
+    width: 100px; 
+    height: auto;
+}
+
+.imagens_cardapio{
+    padding-top: 40px;
+    max-height: 360px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
