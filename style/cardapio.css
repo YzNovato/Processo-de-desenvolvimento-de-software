@@ -20,9 +20,48 @@ body {
 }
 
 .imagens_cardapio{
-    padding-top: 40px;
-    max-height: 360px;
+    width: 170px;
+    height: 225px;
+    object-fit: cover;
+    border: 1px solid goldenrod;
+}
+
+.item{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.cardapio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
     max-width: 1000px;
-    width: 100%;
     margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info h3{
+    margin: 0 0 5px 0;
+}
+
+.info p{
+    margin-top: 5px;
+}
+
+.info h2{
+    font-size: medium;
+}
+
+.preco{
+    font-weight: bold;
+    color: goldenrod;
+    margin-bottom: 5px;
 }
