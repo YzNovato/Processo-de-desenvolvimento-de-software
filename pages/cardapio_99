@@ -38,19 +38,19 @@
 <div class="cardapio">
 
     <div class="item">
-        <img src="../images/imagens_ifood/sushi de salmao maçaricado.jpg" class="imagens_cardapio">
+        <img src="../images/imagens_99/sushi de salmao maçaricado.jpg" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Sushi de salmão maçaricado</h3>
-                <span class="preco">R$ 35,00</span>
+                <span class="preco">R$ 30,00</span>
             </div>
             <p>Sushi de salmão seladSalmão levemente maçaricado,
             com sabor intenso e toque defumado.</p>
         </div>
     </div>
 
-    <div class="item">
-        <img src="../images/imagens_ifood/urumaki de salmao.jpg" class="imagens_cardapio">
+    <!-- <div class="item">
+        <img src="../images/imagens_99/urumaki de salmao.jpg" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Uramaki de salmão</h3>
@@ -58,32 +58,32 @@
             </div>
             <p>Enrolado de arroz por fora com recheio de salmão fresco.</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="item">
-        <img src="../images/imagens_ifood/barca de hot holl.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/barca de hot holl.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Barca de hot roll</h3>
-                <span class="preco">R$ 65,00</span>
+                <span class="preco">R$ 55,00</span>
             </div>
             <p>Seleção de hot rolls crocantes, perfeita para compartilhar.</p>
         </div>
     </div>
 
     <div class="item">
-        <img src="../images/imagens_ifood/guioza suino.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/guioza suino.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Guioza suíno</h3>
-                <span class="preco">R$ 20,00</span>
+                <span class="preco">R$ 16,90</span>
             </div>
             <p>Pastéis japoneses recheados com carne suína, grelhados e suculentos.</p>
         </div>
     </div>
 
-    <div class="item">
-        <img src="../images/imagens_ifood/hot banana.avif" class="imagens_cardapio">
+    <!-- <div class="item">
+        <img src="../images/imagens_99/hot banana.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Hot banana</h3>
@@ -91,21 +91,21 @@
             </div>
             <p>Banana empanada e frita, crocante por fora e macia por dentro.</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="item">
-        <img src="../images/imagens_ifood/hot holl.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/hot holl.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Hot roll</h3>
-                <span class="preco">R$ 38,00</span>
+                <span class="preco">R$ 28,90</span>
             </div>
             <p>Sushi empanado e frito, com recheio cremoso e sabor marcante.</p>
         </div>
     </div>
 
-    <div class="item">
-        <img src="../images/imagens_ifood/mappa maki.avif" class="imagens_cardapio">
+    <!-- <div class="item">
+        <img src="../images/imagens_99/mappa maki.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Mappa maki</h3>
@@ -113,10 +113,10 @@
             </div>
             <p>Enrolado com arroz por fora e recheio de peixe e vegetais.</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="item">
-        <img src="../images/imagens_ifood/mini hot holl.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/mini hot holl.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Mini hot roll</h3>
@@ -127,18 +127,18 @@
     </div>
 
     <div class="item">
-        <img src="../images/imagens_ifood/poke de salmao.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/poke de salmao.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Poke de salmão</h3>
-                <span class="preco">R$ 45,00</span>
+                <span class="preco">R$ 38,00</span>
             </div>
             <p>Cubos de salmão fresco com arroz e acompanhamentos variados.</p>
         </div>
     </div>
 
-    <div class="item">
-        <img src="../images/imagens_ifood/porção de harumaki com queijo.avif" class="imagens_cardapio">
+    <!-- <div class="item">
+        <img src="../images/imagens_99/porção de harumaki com queijo.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Harumaki com queijo</h3>
@@ -146,10 +146,10 @@
             </div>
             <p>Rolinho primavera crocante recheado com queijo derretido.</p>
         </div>
-    </div>
+    </div> -->
 
-    <div class="item">
-        <img src="../images/imagens_ifood/salmao grelhado c legumes na manteiga.avif" class="imagens_cardapio">
+    <!-- <div class="item">
+        <img src="../images/imagens_99/salmao grelhado c legumes na manteiga.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Salmão grelhado com legumes</h3>
@@ -157,10 +157,10 @@
             </div>
             <p>Salmão grelhado servido com legumes na manteiga.</p>
         </div>
-    </div>
+    </div> -->
 
-    <div class="item">
-        <img src="../images/imagens_ifood/shimeji na manteiga.avif" class="imagens_cardapio">
+    <!-- <div class="item">
+        <img src="../images/imagens_99/shimeji na manteiga.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Shimeji na manteiga</h3>
@@ -168,10 +168,10 @@
             </div>
             <p>Cogumelos refogados na manteiga com molho especial.</p>
         </div>
-    </div>
+    </div> -->
 
     <div class="item">
-        <img src="../images/imagens_ifood/sushi de salmao.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/sushi de salmao.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Sushi de salmão</h3>
@@ -182,46 +182,57 @@
     </div>
 
     <div class="item">
-        <img src="../images/imagens_ifood/temaki de salmao cru.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/temaki de salmao cru.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Temaki de salmão cru</h3>
-                <span class="preco">R$ 30,00</span>
+                <span class="preco">R$ 25,00</span>
             </div>
             <p>Cone de alga recheado com salmão fresco e arroz.</p>
         </div>
     </div>
 
     <div class="item">
-        <img src="../images/imagens_ifood/temaki de salmao grelhado.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/temaki de salmao grelhado.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Temaki de salmão grelhado</h3>
-                <span class="preco">R$ 33,00</span>
+                <span class="preco">R$ 25,00</span>
             </div>
             <p>Temaki com salmão grelhado, cebolinha e cream cheese.</p>
         </div>
     </div>
 
     <div class="item">
-        <img src="../images/imagens_ifood/yakisoba de camarão.avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/yakisoba de camarão.avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Yakisoba de camarão</h3>
-                <span class="preco">R$ 70,00</span>
+                <span class="preco">R$ 52,00</span>
             </div>
             <p>Macarrão oriental com camarão e legumes ao molho especial.</p>
         </div>
     </div>
 
     <div class="item">
-        <img src="../images/imagens_ifood/yakisoba misto(carne frango).avif" class="imagens_cardapio">
+        <img src="../images/imagens_99/yakisoba misto(carne frango).avif" class="imagens_cardapio">
         <div class="info">
             <div class="topo">
                 <h3>Yakisoba misto</h3>
-                <span class="preco">R$ 60,00</span>
+                <span class="preco">R$ 45,00</span>
             </div>
             <p>Macarrão com carne, frango e legumes salteados.</p>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="../images/imagens_99/temaki hot.avif" class="imagens_cardapio">
+        <div class="info">
+            <div class="topo">
+                <h3>Temaki hot</h3>
+                <span class="preco">R$ 29,50</span>
+            </div>
+            <p>Temaki empanado e frito, com recheio cremoso e sabor intenso..</p>
         </div>
     </div>
 
