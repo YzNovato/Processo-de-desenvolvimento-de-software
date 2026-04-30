@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 10px;
+    overflow: hidden;
 }
 
 
@@ -33,7 +34,7 @@ body {
     width: 100%;
     max-width: 1000px;
 
-    max-height: 70vh; /* 🔥 usa altura da tela */
+    max-height: 60vh; /* 🔥 usa altura da tela */
     height: auto;
 
     display: block;
