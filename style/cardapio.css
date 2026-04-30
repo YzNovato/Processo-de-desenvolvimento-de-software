@@ -19,9 +19,69 @@ body {
     height: auto;
 }
 
+/*Botoes*/
+
+.botoes-cardapio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 70px; /* espaço entre grupo e botão */
+}
+
+.grupo-botoes{
+    display: flex;
+    gap: 15px; /* espaço entre os 3 botões */
+}
+
+.btn{
+    padding: 18px 50px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn.ativo{
+    outline: 2px solid white;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.ifood{
+    background-color: #ea1d2c;
+}
+
+.food99{
+    background-color: #ffcc00;
+    color: black;
+}
+
+.keeta{
+    background-color: #7ed957;
+    color: black;
+}
+
+.pedir{
+    background-color: #292626;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* Imagens */
 .imagens_cardapio{
-    width: 170px;
-    height: 225px;
+    width: 140px;
+    height: 180px;
     object-fit: cover;
     border: 1px solid goldenrod;
 }
@@ -35,7 +95,7 @@ body {
 
 .cardapio{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 🔥 sempre 2 no PC */
     gap: 20px;
     padding: 20px;
     max-width: 1000px;
@@ -64,4 +124,44 @@ body {
     font-weight: bold;
     color: goldenrod;
     margin-bottom: 5px;
+}
+
+@media (max-width: 768px){
+
+    .botoes-cardapio{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .grupo-botoes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn{
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .cardapio{
+        grid-template-columns: 1fr; /* 🔥 1 por linha no celular */
+    }
+
+    .item{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .imagens_cardapio{
+        width: 110px;
+        height: 140px;
+    }
+
+    .info h3{
+        font-size: 16px;
+    }
+
+    .info p{
+        font-size: 14px;
+    }
 }
