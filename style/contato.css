@@ -13,15 +13,12 @@ body {
     flex-direction: column;
 }
 
-
 .logo{
     width: 100px; 
     height: auto;
 }
 
-
 /* botoes */
-
 .botoes-contato{
     display: flex;
     justify-content: center;
@@ -30,14 +27,12 @@ body {
     gap: 15px; 
 }
 
-
 .contato-container{
     display: flex;
     flex-direction: column;
     justify-content: center; /* centraliza vertical */
     align-items: center;     /* centraliza horizontal */
     text-align: center;
-
     flex: 1; /* ocupa o espaço disponível */
     gap: 30px;
 }
@@ -52,13 +47,10 @@ body {
     line-height: 1.6;
 }
 
-
 .endereco h3{
     color: goldenrod;
     margin-bottom: 10px;
 }
-
-
 
 .btn{
     padding: 18px 50px;
@@ -72,7 +64,6 @@ body {
     text-align: center;
     text-decoration: none; /* tira o sublinhado do link */
 }
-
 
 .btn:hover{
     opacity: 0.8;
@@ -98,13 +89,13 @@ body {
     color: black;
 }
 
+
 .whatsapp{
     background-color: #25D366;
     color: white; 
 }
 
 @media (max-width: 768px){
-
     .botoes-contato{
         flex-direction: column;
         gap: 15px;
